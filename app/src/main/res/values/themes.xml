@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Senha" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="android:colorControlHighlight">#FFC107</item>
+    </style>
+    <style name="ButtonStyle" parent="Widget.Material3.Button">
+        <item name="enforceTextAppearance">false</item>
+        <item name="android:maxWidth">@dimen/m3_btn_max_width</item>
+        <item name="android:paddingLeft">@dimen/m3_btn_padding_left</item>
+        <item name="android:paddingRight">@dimen/m3_btn_padding_right</item>
+        <item name="android:paddingTop">@dimen/m3_btn_padding_top</item>
+        <item name="android:paddingBottom">@dimen/m3_btn_padding_bottom</item>
+        <item name="android:insetTop">@dimen/m3_btn_inset</item>
+        <item name="android:insetBottom">@dimen/m3_btn_inset</item>
+        <item name="android:textAppearance">@macro/m3_comp_filled_button_label_text_type</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.M3.Comp.FilledButton.Container.Shape</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.Material3.Button</item>
+        <item name="android:stateListAnimator">@animator/m3_btn_state_list_anim</item>
+        <item name="elevation">@dimen/m3_comp_filled_button_container_elevation</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="iconTint">@color/vermelho</item>
+        <item name="iconSize">@dimen/m3_comp_filled_button_with_icon_icon_size</item>
+        <item name="backgroundTint">@color/textDisplay</item>
+        <item name="rippleColor">@drawable/button_selected</item>
+    </style>
+
+    <style name="Theme.Senha" parent="Base.Theme.Senha" />
+</resources>

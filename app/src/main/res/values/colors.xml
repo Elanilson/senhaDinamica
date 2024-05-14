@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="azulEscuro">#182033</color>
+    <color name="azulCinzento">#394764</color>
+    <color name="azulcinzenbutton">#637198</color>
+    <color name="azulfundoTeclado">#242C43</color>
+    <color name="cinza">#63676F</color>
+    <color name="vermelho">#D13F30</color>
+    <color name="textDisplay">#EAEDEE</color>
+</resources>
